@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Immutability for More Elegant Code</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/simple.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -19,6 +19,16 @@
 				<section>Slide 1</section>
 				<section>Slide 2</section>
 			</div>
+			<section
+                          data-markdown="slides.md"
+			  data-separator-notes="^Note:"
+			  data-charset="iso-8859-15"
+			>
+			  <!--
+				Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+				For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+			    -->
+                        </section>
 		</div>
 
 		<script src="dist/reveal.js"></script>
