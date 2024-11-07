@@ -72,7 +72,7 @@ def extraction_1(pure_json_dict): ...
 ---
 ## Lots of redundant validation
 
-What if we could `pure_json_dict` immutable?
+What if we could make `pure_json_dict` immutable?
 ---
 ## Benefits of immutability
 
