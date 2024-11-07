@@ -116,7 +116,7 @@ entire data structure. Back to lots of unnecessary work!
 ---
 ## Solution: `pyrsistent_ext`
 
-So at Campus Code Fest 2024, Karl Kaess and I created [pyrsistent-ext](https://github.com/UMNLibraries/pyrsistent-ext)
+At Campus Code Fest 2024, Karl Kaess and I created [pyrsistent-ext](https://github.com/UMNLibraries/pyrsistent-ext)
 which allows for validating only certain parts of an immutable dict, ignoring the rest.
 ---
 ## Live demo!
