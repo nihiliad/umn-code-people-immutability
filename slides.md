@@ -87,7 +87,7 @@ What if we could `pure_json_dict` immutable?
 ## Immutable dicts
 
 ```python
-from pyrsistent pmap
+from pyrsistent import pmap
 pure_json_dict = pmap(
     client.get(pure_json_url).json()
 )
