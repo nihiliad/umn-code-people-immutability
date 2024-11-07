@@ -1,10 +1,16 @@
-# Immutability for More Elegant Code
-## David Naughton
-Application Development, UMN Libraries
+## Immutability for More Elegant Code
+### David Naughton
+#### Application Development, UMN Libraries
 ---
 ## MD Slide 1
 A paragraph with some text and a [link](https://hakim.se).
 ---
 ## MD Slide 2
+
+```python
+@decorator
+def function(int: x, int: y) -> int:
+    return x + y
+```
 ---
 ## MD Slide 3
